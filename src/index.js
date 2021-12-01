@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Contact from './Contact';
+import ServiceClassComponent from './ServiceClassComponent';
+import ServiceFunctionalComponent from './ServiceFunctionalComponent';
 
 ReactDOM.render(
   <StrictMode>
     {/* <App /> */}
     <Contact/>
+    <ServiceClassComponent/>
+    <ServiceFunctionalComponent/>
   </StrictMode>,
   document.getElementById('root')
 );
